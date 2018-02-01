@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Criacao do novo portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raffaeldantass/novoPortfolio.git"
+  },
+  "author": "Rafael Dantas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raffaeldantass/novoPortfolio/issues"
+  },
+  "homepage": "https://github.com/raffaeldantass/novoPortfolio#readme",
+  "devDependencies": {
+    "gulp-install": "^1.1.0"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
