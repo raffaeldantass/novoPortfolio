@@ -1,6 +1,10 @@
 # Novo Portfolio
 
+<<<<<<< HEAD
 [![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)](https://github.com/afonsopacifer/open-source-boilerplate/blob/master/LICENSE.md)
+=======
+[![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)]
+>>>>>>> teste
 
 > :rocket: My new personal site was rebuild using some new stuff that I am learning right now.
 
