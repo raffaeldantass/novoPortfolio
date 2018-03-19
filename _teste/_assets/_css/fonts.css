@@ -22,14 +22,3 @@
 .muliLight      { font-family: muliLight; }
 .muliRegular    { font-family: muliRegular; }
 .muliBlack      { font-family: muliBlack; }
-
-.menu__navegacao {
-  display: inline-block;
-  list-style:none;
-}
-
-.menu__links {
-  color: #808080;
-  text-decoration: none;
-  font-size: 3vh;
-}
