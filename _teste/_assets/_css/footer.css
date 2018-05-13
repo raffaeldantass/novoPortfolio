@@ -1,0 +1,18 @@
+.rodape {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;	
+}
+
+.rodape__logo-list {
+	list-style: none;
+}
+
+.rodape__logo-item {
+	display: inline-block;
+}
+
+.logo {
+	width: 32px;
+	padding: 0 10px;
+}

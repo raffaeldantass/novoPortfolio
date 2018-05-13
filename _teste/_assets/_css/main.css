@@ -4,12 +4,16 @@
   --cor-texto: #969696;
 }
 
-.menu, .conteudo {
+.menu {
   background-color: var(--cor-fundo, #F7F7F7);
 }
 
 .menu {
   position: relative;
+}
+
+.conteudo {
+	background-color: #808080;
 }
 
 .menu__logo {
