@@ -24,6 +24,13 @@
   right: 20px;
 }
 
+.menu__close-button {
+	display: none;
+	position: absolute;
+	top: 22px;
+	right: 18px;
+}
+
 .menu__side-menu {
   background-color: #000;
   display: none;
@@ -33,7 +40,18 @@
   height: 100%;
   position: fixed;
   width: 100%;
-  z-index: 2;
+	z-index: 2;
+	animation: fadeIn 500ms ease-in-out
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	
+	to {
+		opacity: 1;
+	}
 }
 
 .menu__side-link {
