@@ -5,6 +5,7 @@
 }
 
 .rodape__logo-list {
+	padding: 0;
 	list-style: none;
 }
 
@@ -15,4 +16,15 @@
 .logo {
 	width: 32px;
 	padding: 0 10px;
+}
+
+.rodape__nome-autor {
+	text-align: center;
+}
+
+@media screen and (max-width: 420px) {
+	.rodape {
+		flex-direction: column;
+		justify-content: center; 
+	}
 }

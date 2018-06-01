@@ -12,7 +12,10 @@
 }
 
 .conteudo {
-  grid-area: conteudo;
+	grid-area: conteudo;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
 
 .rodape {

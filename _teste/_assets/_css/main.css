@@ -5,25 +5,24 @@
 }
 
 .menu {
-  background-color: var(--cor-fundo, #F7F7F7);
+	background-color: var(--cor-fundo, #F7F7F7);
+	-webkit-box-shadow: 0 -15px 50px 10px #000;
+	box-shadow: 0 -15px 50px 10px #000;
 }
 
 .menu {
   position: relative;
 }
 
-.conteudo {
-	background-color: #808080;
-}
 
 .menu__logo {
-  height: auto;
+	height: auto;
   margin: 10px 0 0 20px;
   max-width: 100%;
 }
 
 .menu__hamburguer {
-  position: absolute;
+	position: absolute;
   top: 25px;
   right: 20px;
 }
@@ -36,7 +35,7 @@
 }
 
 .menu__side-menu {
-  background-color: #000;
+	background-color: #000;
   display: none;
   flex-direction: column;
   justify-content: center;
@@ -59,8 +58,53 @@
 }
 
 .menu__side-link {
-  color: var(--cor-texto, #808080);
+	color: var(--cor-texto, #808080);
   font-size: 2em;
   padding: 20px 0;
   text-decoration: none;
+}
+
+.conteudo {
+	background: -moz-linear-gradient(270deg, rgba(247,247,247,1) 0%, rgba(255,255,255,1) 63%); /* ff3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(247,247,247,1)), color-stop(63%, rgba(255,255,255,1))); /* safari4+,chrome */
+	background: -webkit-linear-gradient(270deg, rgba(247,247,247,1) 0%, rgba(255,255,255,1) 63%); /* safari5.1+,chrome10+ */
+	background: -o-linear-gradient(270deg, rgba(247,247,247,1) 0%, rgba(255,255,255,1) 63%); /* opera 11.10+ */
+	background: -ms-linear-gradient(270deg, rgba(247,247,247,1) 0%, rgba(255,255,255,1) 63%); /* ie10+ */
+	background: linear-gradient(180deg, rgba(247,247,247,1) 0%, rgba(255,255,255,1) 63%); /* w3c */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F7F7F7', endColorstr='#ffffff',GradientType=0 ); /* ie6-9 */
+}
+
+.conteudo__titulo {
+	font-weight: normal;
+	padding: 10px 0 0 0;
+	margin: 20px 0 0 0;
+	text-align: center;
+} 
+
+.conteudo__subtitulo {
+	color: #979797; 
+	padding: 0;
+	margin: 10px 0 0 0;
+	font-size: 18px;
+	font-weight: normal;
+	text-align: center;
+	max-width: 450px;
+}
+
+.conteudo__lista-trabalhos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 30px 0 0 0; 
+	align-items: center;
+}
+
+.conteudo__trabalho {
+	background-color: #808080;
+	margin: 15px 20px;
+	padding: 0 15px;
+	width: 250px;
+	max-width: 250px;
+	height: 250px;
+	max-height: 250px;
 }
