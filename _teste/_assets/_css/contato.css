@@ -1,6 +1,45 @@
 .container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 5fr;
-	background-color: rgb(167, 167, 167);
+	grid-template-rows: 5fr;;
+}
+
+.form__bloco-campos {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.form__titulo {
+	font-size: 36px;
+	font-weight: normal;
+	text-align: center;
+}
+
+.form__subtitulo {
+	font-size: 18px;
+	text-align: center;
+	margin: 0 30px;
+}
+
+.form__label {
+	display: block;
+	margin: 30px 0 0 0;
+	font-size: 18px;
+}
+
+.form__input {
+	display: block;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #000000;
+	margin-top: 10px;
+}
+
+.form__input::placeholder {
+	color: #808080;
+	font-family: muliLight;
+	font-size: 14px;
 }

@@ -107,4 +107,26 @@
 	max-width: 250px;
 	height: 250px;
 	max-height: 250px;
+	position: relative;
+}
+
+.conteudo__texto-categoria-ano {
+	position: absolute;
+	bottom: 70px;
+	margin: 5px 0;
+	color: #ffffff;
+	font-size: 14px;
+}
+
+.conteudo__titulo-trabalho {
+	position: absolute;
+	bottom: calc(100% - (220px));
+	margin: 0;
+	font-size: 18px;
+	color: #ffffff;
+}
+
+.conteudo__tipo-trabalho {
+	position: absolute;
+	bottom: 5px;
 }
