@@ -24,7 +24,8 @@
 .menu__hamburguer {
 	position: absolute;
   top: 25px;
-  right: 20px;
+	right: 20px;
+	cursor: pointer;
 }
 
 .menu__close-button {
@@ -77,7 +78,6 @@
 .conteudo__titulo {
 	font-weight: normal;
 	padding: 10px 0 0 0;
-	margin: 20px 0 0 0;
 	text-align: center;
 } 
 
@@ -100,7 +100,6 @@
 }
 
 .conteudo__trabalho {
-	background-color: #808080;
 	margin: 15px 20px;
 	padding: 0 15px;
 	width: 250px;
@@ -108,13 +107,36 @@
 	height: 250px;
 	max-height: 250px;
 	position: relative;
+	border-radius: 6px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.conteudo__trabalho:hover {
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	cursor: pointer;
+}
+
+.trabalho__um .trabalho__dois .trabalho__tres {
+	background-position: center center;
+}
+
+.trabalho__um {
+	background-image: url('../_img/capa-trabalho-um.png');
+}
+
+.trabalho__dois {
+	background-image: url('../_img/capa-trabalho-dois.png');
+}
+
+.trabalho__tres {
+	background-image: url('../_img/capa-trabalho-tres.png');
 }
 
 .conteudo__texto-categoria-ano {
 	position: absolute;
 	bottom: 70px;
 	margin: 5px 0;
-	color: #ffffff;
+	color: #212121;
 	font-size: 14px;
 }
 
@@ -123,7 +145,7 @@
 	bottom: calc(100% - (220px));
 	margin: 0;
 	font-size: 18px;
-	color: #ffffff;
+	color: #212121;
 }
 
 .conteudo__tipo-trabalho {

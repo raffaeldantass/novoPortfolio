@@ -1,10 +1,11 @@
 .container {
   display: grid;
-  grid-template-rows: 1fr 5.5fr 1fr;
+  grid-template-rows: .8fr 6fr .8fr;
   grid-template-areas:
   'menu'
   'conteudo'
-  'rodape';
+	'rodape';
+	height: 100vh;
 }
 
 .menu {
@@ -15,9 +16,10 @@
 	grid-area: conteudo;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	flex-direction: column;
 }
 
 .rodape {
-  grid-area: rodape;
+	grid-area: rodape;
 }
